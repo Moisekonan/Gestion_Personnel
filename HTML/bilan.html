@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee - Moko&Co</title>
+
+    <!-- lien CSS -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- icons avec material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body id="body-employe">
+    <div class="grid-container">
+        <header class="header">
+            <div class="menu-icon">
+                <span class="material-icons-outlined">
+                    menu
+                </span>
+            </div>
+            <div class="header-left">
+                <span class="material-icons-outlined">
+                    search
+                </span>
+            </div>
+            <div class="header-right">
+                <span class="nom_du_conect" style="color:#B36458; font-size:1.3rem;">
+                    
+                </span>
+                <span class="material-icons-outlined">
+                    account_circle
+                </span>
+                <span class="material-icons-outlined">
+                    notifications
+                </span>
+            </div>
+        </header>
+
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+                    <span class="material-icons-outlined" title="Moko&Co">
+                        <img src="../IMG/Organic_Farms_blue-removebg-preview.png" alt="" width="100%" height="100">
+                    </span>
+                </div>    
+            </div>
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined" title="Tableau de bord">
+                        dashboard
+                    </span>
+                    <a href="dashboard.html"><span class="label-item">
+                        Tableau de bord
+                    </span> </a>
+                </li> 
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined" title="Employés">
+                        badge
+                    </span>
+                    <a href="employe.html"><span class="label-item">
+                        Employée
+                    </span> </a>
+                </li> 
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined" title="Tâches">
+                        add_task
+                    </span>
+                    <a href="tache.html"><span class="label-item">
+                        Tâches
+                    </span> </a> 
+                </li> 
+                <li class="sidebar-list-item sidebar-list-item-gestionAdm">
+                    <span class="material-icons-outlined" title="Gestion des admins ">
+                        admin_panel_settings
+                    </span>
+                    <a href="gestion-admin.html"><span class="label-item">
+                        Gestion des admins
+                    </span> </a>
+                </li> 
+                <li class="sidebar-list-item sidebar-active" style="margin-bottom:70px;">
+                    <span class="material-icons-outlined" title="Moko&Co">
+                        summarize
+                    </span>
+                    <a href="#"><span class="label-item">
+                        Bilans
+                    </span> </a>
+                </li> 
+
+                <li><hr></li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined" title="Moko&Co">
+                        settings
+                    </span>
+                    <a href="setting.html"><span class="label-item">
+                        Paramètre
+                    </span> </a>
+                </li> 
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined" title="Moko&Co">
+                        logout
+                    </span>
+                    <a href="login.html"><span class="label-item logoutButom">
+                        Déconnexion
+                    </span> </a>
+                </li> 
+            </ul>
+        </aside>
+
+        <main class="main-container">
+            <div class="main-title">
+                <p class="fw-600">Bilan</p>
+            </div>
+
+            <div class="box-table">
+                <table class="table-employ">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Nombre de tâches</th>
+                            <th>Sommes versé</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    </tbody> 
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Lien du js -->
+    <script src="../JS/bilan.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.swap{
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	margin: 30px;
+}
+
+.boxSwap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.boxSwap h3{
+	margin: 20px 0px 20px 120px;
+	color: #353E55;
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+.boxSwap #taches{
+	width: 100%;
+}
+
+.boxSwap #paye{
+	width: 100%;
+}
+
+.boxSwap #paye{
+	display: none;
+}
